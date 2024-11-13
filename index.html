@@ -21,7 +21,32 @@
 
 </head>
 <body>
-    <h1>Good</h1>
+    <div class="bg-video">
+        <video class="video" autoplay loop muted>
+            <source src="src/assets/video/yugi.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <div class="container">
+        <div class="container_left framed-golden-2">
+
+            <div class="score_box">
+                <span id="score_points">Win : 0 | Lose : 0</span>
+            </div>
+            <div class="menu_avatar">
+                <img id="card-image">
+            </div>
+            <div class="card_details">
+                <p id="card-name">a</p>
+                <p id="card-type">a</p>
+            </div>
+        </div>
+        <div class="container__right">
+            <div class="card-box_container"></div>
+        </div>
+        <h1>LIÇÃO CONTINUE: CONSTRINDO CONTAINER RIGHT</h1>
+    </div>
+
     <script src="src/scripts/engine.js"></script>
 </body>
 </html>
